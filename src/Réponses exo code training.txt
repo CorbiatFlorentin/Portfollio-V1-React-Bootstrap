@@ -1,0 +1,32 @@
+/**
+ * @param {number} n
+ * @return {Function} counter
+ */
+var createCounter = function(n) {
+     var count = n;
+    return function() {
+        return count ++
+        
+    };
+};
+Given an integer n, return a counter function. This counter function initially returns 
+n and then returns 1 more than the previous value every subsequent time it is called (n, n + 1, n + 2, etc).
+On créer la var count pour initier le décompte et on return + 1 
+
+/**
+ * @param {string} val
+ * @return {Object}
+ */
+var expect = function(val) {
+    return {
+        toBe: (val2) => {
+            if(val === val2) return true;
+            else throw new Error("Not Equal");
+        },
+        notToBe: (val2) => {
+            if(val !== val2) return true;
+            else throw new Error("Equal");
+        }
+    }
+};On veut que toBe soit égal à la valeur rentré par l'utilisateur, donc = true sinon = pas égal; et noToBe l'inverse
+si ce n'est pas égal on return true sinon c'est égal; 2 points de bvue différents mais la meme chose.
