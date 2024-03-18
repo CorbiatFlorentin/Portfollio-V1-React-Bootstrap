@@ -6,7 +6,7 @@ import Card from './Card';
 const Resume = () => {
     return (
       <section className="resume container section" id='resume'>
-        <h2 className="section__title">Éxperiences</h2>
+        <h2 className="section__title">Expériences</h2>
 
         <div className="resume__container grid">
           <div className="timeline grid">

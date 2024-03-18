@@ -37,6 +37,16 @@ import Logo from "../../assets/Logo.png"
             <i className="icon-bubble"></i>
             </a>
           </li>
+          <li className="nav__item">
+            <a href="https://www.linkedin.com/in/florentin-corbiat-a1280710b/" className="nav__link" target='_blank'>
+            <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li className="nav__item">
+            <a href="https://github.com/CorbiatFlorentin" className="nav__link" target='_blank'>
+            <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
         </ul>
       </div>
      </nav>

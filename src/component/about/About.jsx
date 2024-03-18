@@ -13,12 +13,12 @@ import Image from "../../assets/Avatar.png";
           <p className="about__description">C'est moi, Florentin. Je souhaite devenir développeur
           web. Je suis actuellement en reconversion par le biais d'Ada Tech School. J'adore utitliser React et découvrir
           l'ensemble des frameworks qui gravitent autour!  </p>
-          <a href="https://drive.google.com/file/d/1uOSHQoOV-rAdYkk8Bya5wCxTGIdPH5Kz/view?usp=sharing" className='btn' rel='noopener noreferrer' target='_blank'>Télécharger mon CV</a>
+          <a href="https://drive.google.com/file/d/1fW24_geerIKYBxfUrn-BKpLND9YXYLyd/view?usp=sharing" className='btn' rel='noopener noreferrer' target='_blank'>Télécharger mon CV</a>
 
           <div className="about__skils grid">
             <div className="skills__data">
              <div className="skills__titles">
-              <h3 className='skills__name'>Javascript/React/HTML/CSS</h3>
+              <h3 className='skills__name'>Javascript/React/HTML/CSS/Wordpress</h3>
               </div> 
             </div>
           </div>
@@ -26,7 +26,7 @@ import Image from "../../assets/Avatar.png";
           <div className="about__skils grid">
             <div className="skills__data">
              <div className="skills__titles">
-              <h3 className='skills__name'>Node/Trello/Git/GitHub</h3>
+              <h3 className='skills__name'>Node/Trello/Supabase/Git/GitHub</h3>
               </div> 
             </div>
           </div>

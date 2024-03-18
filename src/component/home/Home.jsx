@@ -1,16 +1,17 @@
 import React from 'react';
 import "./home.css";
-import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
+import backgroundImage from '../../assets/background1.svg';
+
  const Home = () => {
   return (
-    <section className="home container">
-      <div className='intro' style={{backgroundImage : './assets/Florentin.png'}}>
-        <img src='./assets/Florentin.png' alt='' className='home__img' />
+    <section className="home container" style={{ backgroundImage: `url(${backgroundImage})`}}>
+      <div className='intro'>
+        <img src={process.env.PUBLIC_URL + '/assets/background1.svg'} alt='' className='home__img' />
         <h1 className="home__name"></h1>
         <span className="home__education"></span>
 
-        <HeaderSocials />
+        
 
         <a href="#contact" className="btn">Mon profil vous intéresse</a>
 

@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/src/assets/Florentin.png');
+    background-image: url('/src/assets/background.svg');
     background-size: contain; /* or 'contain' depending on your preference */
     background-position: center; /* or adjust as needed */
     background-repeat: no-repeat;

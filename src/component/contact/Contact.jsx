@@ -17,7 +17,7 @@ export const Contact = () => {
       })
       .then(
         () => {
-          alert('Email envoyé avec succés');
+          alert('Email envoyé avec succès, il sera traité dans les plus brefs délais.');
           clearForm();
           console.log('SUCCESS!');
         },

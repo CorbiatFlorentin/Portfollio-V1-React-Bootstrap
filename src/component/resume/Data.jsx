@@ -12,7 +12,7 @@ const Data = [
         icon: "icon-graduation",
         year: "2010-2013",
         title: "Baccalauréat Pro Restauration",
-        description: "Mention Bien /Lycée Saint Joseph l'Amandier/Charente"
+        description: "Mention Bien au Lycée Saint Joseph l'Amandier/Charente"
         
     },
     {
@@ -21,7 +21,7 @@ const Data = [
         icon: "icon-briefcase",
         year: "2019-2023",
         title: "Chef de Cuisine/Seconde de cuisine",
-        description: "Différents établissments sur Nantes dans lesquels j'ai pu encadré et diriger des brigade de cuisine"
+        description: "Différents établissements sur Nantes dans lesquels j'ai pu encadrer et diriger des brigades de cuisine"
         
     },
     {   id: 4,
