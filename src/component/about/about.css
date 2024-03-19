@@ -1,6 +1,7 @@
 .about__container {
     grid-template-columns: 1fr 1fr;
     column-gap: 1.875rem;
+    
 }
 
 .about__data {
@@ -27,29 +28,33 @@
 }
 
 .about__description {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     text-align: justify;
+    justify-content: space-between;
 }
 
 .about__skills {
     row-gap: 1rem;
+    justify-content: space-between;
 }
 
 .skills__titles {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    align-items: center;    
 }
 
 .skills__name {
     font-size: var(--normal-font-size) ;
     flex-direction: column;
-    margin-bottom: 15px;   
+    margin-bottom: 15px;
+    margin-top: 2rem;   
 }
 
 .skills__name:nth-child(odd) {
-    margin-bottom: 50px; 
+    margin-bottom: 1rem; 
   }
 
 .skills__name:nth-child(even){
-    margin-bottom: 100px;
+    margin-bottom: 1rem;
 }

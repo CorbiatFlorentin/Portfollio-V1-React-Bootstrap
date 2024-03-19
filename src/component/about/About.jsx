@@ -11,7 +11,7 @@ import Image from "../../assets/Avatar.png";
       <div className='about__data grid'>
         <div className="about__info">
           <p className="about__description">C'est moi, Florentin. Je souhaite devenir développeur
-          web. Je suis actuellement en reconversion par le biais d'Ada Tech School. J'adore utitliser React et découvrir
+          web. Je suis actuellement en reconversion par le biais d'Ada Tech School. J'aime particulièrement  React et découvrir
           l'ensemble des frameworks qui gravitent autour!  </p>
           <a href="https://drive.google.com/file/d/1fW24_geerIKYBxfUrn-BKpLND9YXYLyd/view?usp=sharing" className='btn' rel='noopener noreferrer' target='_blank'>Télécharger mon CV</a>
 

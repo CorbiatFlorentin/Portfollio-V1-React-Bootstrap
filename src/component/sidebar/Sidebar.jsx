@@ -1,15 +1,18 @@
 import React from 'react';
 import "./sidebar.css";
-import Logo from "../../assets/Logo.png"
 
  const Sidebar = () => {
+  const copyrightText = "2023-2024"; // Copyright text
+  
+  // Convert each character of the copyright text to an array of spans
+  const columns = Array.from(copyrightText).map((char, index) => (
+    <span key={index} className="column-text">
+      {char}
+    </span>
+  ));
   return (
     <aside className='aside'>
-      <a href='#home' className='nav_logo'>
-        <img src={Logo} alt='' />
-      </a>
-
-    <nav className='nav'>
+      <nav className='nav'>
       <div className="nav__menu">
         <ul className="nav__list">
           <li className="nav__item">
@@ -52,7 +55,9 @@ import Logo from "../../assets/Logo.png"
      </nav>
 
      <div className="nav__footer">
-      <span className="copyright"> 2023-2024</span>
+     <span className="vertical-text">
+          {columns}
+        </span>
      </div>
     </aside>
   )
