@@ -13,7 +13,7 @@ import Image from "../../assets/Avatar.png";
           <p className="about__description">C'est moi, Florentin. Je souhaite devenir développeur
           web. Je suis actuellement en reconversion par le biais d'Ada Tech School. J'aime particulièrement  React et découvrir
           l'ensemble des frameworks qui gravitent autour!  </p>
-          <a href="https://drive.google.com/file/d/1fW24_geerIKYBxfUrn-BKpLND9YXYLyd/view?usp=sharing" className='btn' rel='noopener noreferrer' target='_blank'>Télécharger mon CV</a>
+          <a href="https://drive.google.com/file/d/1WaxQZNYTYVQCm04sYa_mRyfLoxiiEPqD/view?usp=drive_link" className='btn' rel='noopener noreferrer' target='_blank'>Télécharger mon CV</a>
 
           <div className="about__skils grid">
             <div className="skills__data">
